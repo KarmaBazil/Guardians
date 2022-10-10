@@ -74,7 +74,7 @@ table, th, td {
 	position: relative;
 	width: 300px;
 	height: 200px;
-	margin-left: 100px;
+	margin-left: 60px;
 	margin-top: 100px;
 	float: left;
 }
@@ -183,13 +183,21 @@ table, th, td {
 	text-align: center;
 }
 
-/* footer, all pages */
+/* Star Footer */
 
+#star-footer {
+	text-align: center;
+	margin-top: 50%;
+}
+
+/* footer, all pages */
 
 #footer {
 	text-align: center;
-	margin-top: 60%;
+	margin-top: 20px;
 }
+
+
 
 h2 {
 	text-align: center;
