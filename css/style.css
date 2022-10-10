@@ -4,6 +4,8 @@ html body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Nav Bar for all */
+
 .logo {
 	text-align: left;
 	width: 70px;
@@ -12,12 +14,15 @@ html body {
 	padding: 10px;
 }
 
+/* Home background image */
+
 .back-img {
     max-width: 100%;
 	max-height: 100%;
-	background-image: url(images/g-back.jpg);
     z-index: 110;
 }
+
+/* Movies Page */
 
 header {
 	background-color: black;
@@ -26,10 +31,7 @@ header {
 	margin-top:0;
 	padding:0;
 }
-
-h2 {
-	text-align: center;
-}
+/* Movies page table */
 
 .table-header {
 	text-align: center;
@@ -62,7 +64,134 @@ table, th, td {
 	color: red;
 }
 
+/* Star Page */
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	position: relative;
+	width: 300px;
+	height: 200px;
+	margin-left: 100px;
+	margin-top: 100px;
+	float: left;
+}
+  
+  /* Star page Hide the images by default */
+
+.mySlides {
+	display: none;
+}
+  
+  /* Star page Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+	cursor: pointer;
+}
+  
+  /* Star page Next & previous buttons */
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: 30%;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+  
+  /* Star page Position the "next button" to the right */
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+  
+  /* Star page On hover, add a black background color with a little bit see-through */
+
+.prev:hover, .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+  
+  /* Star page Number text (1/3 etc) */
+
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+  
+  /* Star page Container for image text */
+
+.caption-container {
+	text-align: center;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+}
+  
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+  
+  /* Star page Six columns side by side */
+
+.column {
+	float: left;
+	width: 16.66%;
+}
+  
+  /* Star page Add a transparency effect for thumnbail images */
+
+.demo {
+	opacity: 0.6;
+}
+  
+.active, .demo:hover {
+	opacity: 1;
+}
+
+/* Star page paragraph */
+
+
+.info-container {
+	position: relative;
+	width: 700px;
+	height: 200px;
+	margin-top: 20px;
+	margin-right: 40px;
+	float: right;
+}
+
+.info-head {
+	text-align: center;
+}
+
+.abilities {
+	text-align: center;
+}
+
+/* footer, all pages */
+
+
 #footer {
+	text-align: center;
+	margin-top: 60%;
+}
+
+h2 {
 	text-align: center;
 }
 
@@ -107,5 +236,3 @@ div.img-center{
 	padding-left: 10px;
 	padding-right: 10px;
 }
-
-
